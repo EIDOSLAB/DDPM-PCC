@@ -1,0 +1,15 @@
+python eval_model --save-dir ../results/modelnet/vq_diffusion/ae_all_pointnet_bs128_different_CD_fz_diffusion_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs1/ --dataset modelnet --compressed-vq-model
+python eval_model --save-dir ../results/modelnet/vq_diffusion/ae_all_pointnet_bs128_different_CD_fz_diffusion_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs2/ --dataset modelnet --compressed-vq-model
+python eval_model --save-dir ../results/modelnet/vq_diffusion/ae_all_pointnet_bs128_different_CD_fz_diffusion_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs4/ --dataset modelnet --compressed-vq-model
+python eval_model --save-dir ../results/modelnet/vq_diffusion/ae_all_pointnet_bs128_different_CD_fz_diffusion_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs8/ --dataset modelnet --compressed-vq-model
+python eval_model --save-dir ../results/modelnet/vq_diffusion/ae_all_pointnet_bs128_different_CD_fz_diffusion_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs16/ --dataset modelnet --compressed-vq-model
+python eval_model --save-dir ../results/modelnet/vq_diffusion/ae_all_pointnet_bs128_different_CD_fz_diffusion_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs32/ --dataset modelnet --compressed-vq-model
+python eval_model --save-dir ../results/modelnet/vq_diffusion/ae_all_pointnet_bs128_different_CD_fz_diffusion_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs64/ --dataset modelnet --compressed-vq-model
+
+python eval_model --save-dir ../results/shapenet/vq_diffusion/ae_all_pointnet_bs128_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs1/ --dataset shapenet --compressed-vq-model
+python eval_model --save-dir ../results/shapenet/vq_diffusion/ae_all_pointnet_bs128_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs2/ --dataset shapenet --compressed-vq-model
+python eval_model --save-dir ../results/shapenet/vq_diffusion/ae_all_pointnet_bs128_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs4/ --dataset shapenet --compressed-vq-model
+python eval_model --save-dir ../results/shapenet/vq_diffusion/ae_all_pointnet_bs128_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs8/ --dataset shapenet --compressed-vq-model
+python eval_model --save-dir ../results/shapenet/vq_diffusion/ae_all_pointnet_bs128_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs16/ --dataset shapenet --compressed-vq-model
+python eval_model --save-dir ../results/shapenet/vq_diffusion/ae_all_pointnet_bs128_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs32/ --dataset shapenet --compressed-vq-model
+python eval_model --save-dir ../results/shapenet/vq_diffusion/ae_all_pointnet_bs128_latent256_steps200_rotateFalse_vqalpha2.5_num_codecs128_dim_codecs64/ --dataset shapenet --compressed-vq-model

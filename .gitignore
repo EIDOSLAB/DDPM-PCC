@@ -1,6 +1,10 @@
 # Custom ignores
 wandb
 .DS_Store
+results/*
+datasets.zip
+results_ddpm.zip
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
